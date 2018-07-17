@@ -1,0 +1,65 @@
+html{
+	height: 100%;
+}
+body{
+	position: relative;
+	height: 10em;
+	background: linear-gradient(pink, white);
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+	position: relative;
+	height: 10em;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#botao {
+	position: relative;
+	left: 300px;
+	bottom: 19px;
+}
+#links {
+	color: magenta;
+}
+#tabela {
+	position: relative;
+	left: 15px;
+	top: 20px;
+}
+#idade {
+	position: relative;
+	left: 10px
+}
+#age {
+	position: relative;
+	left: 5px;
+}
+#course {
+	position: relative;
+	left: 5px;
+}
+#curso {
+	position: relative;
+	left: 10px;
+}
+#progress {
+	position: relative;
+	left: 5px;
+}
+#periodo {
+	position: relative;
+	left: 10px;
+}
+.imagem {
+	position: relative;
+	width: 150px;
+    height: 80px;
+	left: 1000px;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(20deg);
+}
